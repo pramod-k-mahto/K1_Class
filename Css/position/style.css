@@ -1,0 +1,45 @@
+.position {
+  border: 2px solid black;
+  font-size: 20px;
+  height: 300px;
+  width: 300px;
+
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed; */
+  /* position:static; */
+  /* position: sticky; */
+
+  /* left:  ; */
+  /* right:  ; */
+  /* top:  ; */
+  /* bottom:  ; */
+}
+
+.parent {
+  border: 2px solid black;
+  height: 1000px;
+  /* width: 500px; */
+}
+.p1 {
+  /* position: relative;
+  left: 500px;
+  top: 100px; */
+  background-color: red;
+  /* position: absolute;
+  left: 100px;
+  top: 100px; */
+
+  /* position: fixed;
+  right: 10px; */
+  /* top: 100px; */
+  /* bottom: 10px; */
+  /* 
+  width: 100px;
+  height: 100px; */
+}
+.p2 {
+  background-color: green;
+  position: sticky;
+  top: 100px;
+}

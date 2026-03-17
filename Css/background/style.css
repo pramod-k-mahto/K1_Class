@@ -1,0 +1,30 @@
+.box {
+  border: 2px solid black;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  /* padding: 5px; */
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/098/203/small/silver-tabby-cat-sitting-on-green-background-free-photo.jpg");
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
+  /* background-position: top left;
+    background-position: top center;
+    background-position: top right; */
+  /* background-position: center left;
+    background-position: center center;
+    background-position: center right; */
+  /* background-position: bottom left;
+    background-position: bottom center;
+    background-position: bottom right;
+    background-position: center; */
+  /* background-position: 100px 100px ; */
+  background-position: center;
+  background-size: auto;
+  background-size: contain;
+  background-size: cover;
+}

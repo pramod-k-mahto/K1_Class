@@ -1,0 +1,37 @@
+.box {
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  padding: 100px;
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+  box-shadow: 65px 90px 7px 95px red;
+  /* text-align:left ;
+  text-align:center ;
+  text-align:right ; */
+  /* text-align:justify ; */
+  /* text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration:  5px solid  red   overline;
+  text-decoration:  5px solid  red   underline; */
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  /* text-shadow: 3px 10px 3px green; */
+
+  font-size: larger;
+  font-size: 20px;
+  /* font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-style: italic;
+  /* font-style: oblique; */
+  /* font-weight: 200;
+  font-weight: bold; */
+  /* font-family: "Bitcount Ink", system-ui; */
+  /* word-spacing: 10px;
+  letter-spacing: 10px;
+  line-height: 100px; */
+}

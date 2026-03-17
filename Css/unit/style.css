@@ -1,0 +1,29 @@
+html{
+    font-size: 20px;
+}
+
+.parent {
+  border: 2px solid rgb(237, 8, 8);
+  width: 1000px;
+  /* font-size: 20px; */
+}
+
+.first {
+  border: 2px solid black;
+  /* width: 95vw; */
+  /* width: 75%;   */
+  /* 500px */
+  /* font-size: 2em;   */
+  font-size: 2rem;  
+  height: 100px;
+}
+
+/* Unit system in css  */
+/* Absolute (fixed )  unit  */
+/* px,cm, inch ,mm  */
+
+/* 96 px=1 inch  */
+/* 1000px=1/96*1000 */
+/* Relative  unit   */
+/* %,vh,vw,em , rem ,  */
+/* vw */
