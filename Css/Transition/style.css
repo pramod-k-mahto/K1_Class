@@ -1,0 +1,35 @@
+.parent {
+  border: 2px solid red;
+  height: 300px;
+}
+
+.transition {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  /* transition-property:  ; */
+  /* transition-duration:  ; */
+  /* transition-delay:  ; */
+  /* transition-timing-function: ; */
+  transition-property: all;
+  transition-duration: 2s;
+  /* transition-delay: 1s; */
+  /* transition-timing-function: linear; */
+  /* transition-timing-function: ease;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition-timing-function: ease-in-out; */
+  /* transition-timing-function: ease; */
+  /* slow start , fast , slow  */
+  /* 1ms   3ms  2ms  */
+  /* transition-timing-function: ease-in; */
+  /* slow start , end fast  */
+  /* transition-timing-function:  ease-out; */
+  /* start fast , end slow  */
+  transition-timing-function: ease-in-out;
+  /* slow start , fast , slow  */
+  /* 1ms   3ms  1ms  */
+}
+.transition:hover {
+  transform: translateX(900px);
+}

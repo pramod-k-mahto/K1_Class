@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  /* border: 20px solid rgb(237, 123, 123); */
+  padding-bottom: 100px;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: end;
+  background-image: url("https://media.istockphoto.com/id/603164912/photo/suburb-asphalt-road-and-sun-flowers.jpg?s=612x612&w=0&k=20&c=qLoQ5QONJduHrQ0kJF3fvoofmGAFcrq6cL84HbzdLQM=");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+}
+.car {
+  /* border: 2px solid rgb(26, 23, 23); */
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  animation-name: move;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  background-image: url("https://cdn.prod.website-files.com/6527041853fda5913e2a6c5b/68498dbe677d1dbf7e17feba_small-garage-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.wheel {
+  /* border: 2px solid black; */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: url("https://www.pngarts.com/files/13/Auto-Car-Wheel-PNG-Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation-name: wheel_r;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
+@keyframes wheel_r {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

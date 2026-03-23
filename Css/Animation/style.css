@@ -1,0 +1,38 @@
+.parent {
+  border: 2px solid black;
+  height: 500px;
+}
+
+.animation {
+  border: 2px solid rgb(211, 8, 8);
+  width: 100px;
+  height: 100px;
+  animation-name: abc;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  /* animation-timing-function: ;liner  ; */
+  animation-delay: 1s;
+  /* animation-fill-mode:  ; */
+  /* animation-direction: normal ; */
+  /* animation-direction: reverse ; */
+  /* animation-direction: alternate ; */
+  /* animation-direction: alternate-reverse ; */
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; */
+  animation-fill-mode: both;
+}
+@keyframes abc {
+  /* 2s */
+  /* 0s=0s */
+  /* 1s=50% */
+  /* 2s=100% */
+  /* 0%-100% */
+  0% {
+    /* background-color: red; */
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(900px);
+  }
+}
