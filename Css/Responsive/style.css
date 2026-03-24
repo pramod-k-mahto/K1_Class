@@ -1,0 +1,73 @@
+.responsive {
+  border: 2px solid black;
+  height: 100px;
+}
+/* 
+@media (width: 500px) {
+  .responsive {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+} */
+/* 
+@media (max-width:500px) {
+     .responsive {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+    
+} */
+/* @media (min-width:500px) {
+     .responsive {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+    
+} */  
+@media (min-width: 0px) and (max-width: 400px) {
+  .responsive {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  .responsive {
+    background-color: rgb(237, 22, 22);
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .responsive {
+    background-color: rgb(8, 24, 200);
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1000px) {
+  .responsive {
+    background-color: rgb(91, 200, 8);
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    font-size: 30px;
+  }
+}
