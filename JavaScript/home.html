@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>This is js</h1>
+
+    <script>
+      let user = {
+        name: "Ram",
+        phone: 9800841208,
+        isAdmin: true,
+      };
+      localStorage.setItem("name", "Ram");
+      localStorage.setItem("age", 29);
+      localStorage.setItem("user", JSON.stringify(user));
+      // let userName=localStorage.getItem('name')
+      // console.log(userName)
+      // localStorage.removeItem('name')
+      // localStorage.clear();
+      console.log(localStorage.getItem("user"));
+      console.log(JSON.parse(localStorage.getItem("user")));
+    </script>
+  </body>
+</html>
